@@ -1,0 +1,15 @@
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+# bin
+pkg
+*.iml
+target
+.vscode/*
+
+.idea
