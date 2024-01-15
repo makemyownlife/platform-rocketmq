@@ -5,13 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.itcouarge</groupId>
-    <artifactId>platform-rmqclient-all</artifactId>
+    <artifactId>platform-rocketmq-client</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
     <modules>
+        <!-- 核心包 -->
         <module>platform-rmqclient-core</module>
+        <!-- 示例代码 -->
         <module>platform-rmqclient-demo</module>
     </modules>
 

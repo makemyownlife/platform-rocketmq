@@ -1,1 +1,0 @@
-package cn.itcouarge.platform.rmqclient.core;
