@@ -1,5 +1,6 @@
 package cn.javayong.platform.rmqclient.core.bean;
 
+import cn.javayong.platform.rmqclient.core.OrderProducer;
 import cn.javayong.platform.rmqclient.core.Producer;
 import cn.javayong.platform.rmqclient.core.ProducerMessage;
 import cn.javayong.platform.rmqclient.core.SendResult;
@@ -10,9 +11,9 @@ import cn.javayong.platform.rmqclient.core.impl.order.OrderProducerImpl;
 
 /**
  * 顺序消息生产者bean,用于Spring容器的配置<BR/>
- * 张严  2018/9/26 16:52
+ * 张勇 2024.1.18
  */
-public class OrderProducerBean implements Producer {
+public class OrderProducerBean implements OrderProducer {
 
     private OrderProducerImpl producer;
 

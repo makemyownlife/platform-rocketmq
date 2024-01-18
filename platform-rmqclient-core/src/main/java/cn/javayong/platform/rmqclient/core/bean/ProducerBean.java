@@ -52,6 +52,16 @@ public class ProducerBean implements Producer {
         return this.producer.send(message);
     }
 
+    @Override
+    public void sendOneway(ProducerMessage message) {
+        this.producer.sendOneway(message);
+    }
+
+    @Override
+    public void sendAsync(ProducerMessage message, SendCallback sendCallback) {
+        this.producer.sendAsync(message, sendCallback);
+    }
+
     /**
      * 异步发送消息
      */

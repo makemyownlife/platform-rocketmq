@@ -1,12 +1,14 @@
 package cn.javayong.platform.rmqclient.core;
 
-/**
- * 生产者<BR/>
- * 张严  2018/9/26 16:52
- */
 public interface Producer {
 
     void start();
+
+    SendResult send(final ProducerMessage message);
+
+    void sendOneway(ProducerMessage message);
+
+    void sendAsync(ProducerMessage message, SendCallback sendCallback);
 
     void shutdown();
 

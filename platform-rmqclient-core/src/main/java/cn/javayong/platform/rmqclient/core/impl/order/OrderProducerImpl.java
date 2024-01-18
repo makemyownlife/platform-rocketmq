@@ -1,5 +1,6 @@
 package cn.javayong.platform.rmqclient.core.impl.order;
 
+import cn.javayong.platform.rmqclient.core.OrderProducer;
 import cn.javayong.platform.rmqclient.core.Producer;
 import cn.javayong.platform.rmqclient.core.ProducerMessage;
 import cn.javayong.platform.rmqclient.core.SendResult;
@@ -22,7 +23,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * 顺序消息生产者实现类<BR/>
  * 张严  2018/9/26 16:52
  */
-public class OrderProducerImpl implements Producer {
+public class OrderProducerImpl implements OrderProducer {
 
     private static final Logger logger = LoggerFactory.getLogger(OrderProducerImpl.class);
 
