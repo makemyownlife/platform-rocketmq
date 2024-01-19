@@ -10,8 +10,7 @@ import cn.javayong.platform.rmqclient.core.impl.factory.MQFactory;
 import cn.javayong.platform.rmqclient.core.impl.ordinary.ProducerImpl;
 
 /**
- * 生产者bean,用于Spring容器的配置<BR/>
- * 张严  2018/9/26 16:52
+ * 生产者bean,用于Spring容器的配置
  */
 public class ProducerBean implements Producer {
 

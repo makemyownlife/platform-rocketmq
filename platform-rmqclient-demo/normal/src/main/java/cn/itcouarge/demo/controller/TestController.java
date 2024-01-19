@@ -1,4 +1,4 @@
-package cn.javayong.platform.rmqclient.demo.controller;
+package cn.itcouarge.demo.controller;
 
 import cn.javayong.platform.rmqclient.core.Producer;
 import cn.javayong.platform.rmqclient.core.ProducerMessage;

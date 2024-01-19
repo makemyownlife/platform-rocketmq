@@ -15,6 +15,7 @@
         <module>platform-rmqclient-core</module>
         <!-- 示例代码 -->
         <module>platform-rmqclient-demo</module>
+        <module>platform-rmqclient-demo/normal</module>
     </modules>
 
     <properties>

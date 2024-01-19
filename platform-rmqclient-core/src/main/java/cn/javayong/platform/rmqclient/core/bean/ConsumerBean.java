@@ -12,8 +12,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * 消费者bean,用于Spring容器的配置<BR/>
- * 张严  2018/9/26 16:52
+ * 消费者bean,用于Spring容器的配置
  */
 public class ConsumerBean implements Consumer {
 

@@ -11,7 +11,6 @@ import cn.javayong.platform.rmqclient.core.impl.order.OrderProducerImpl;
 
 /**
  * 顺序消息生产者bean,用于Spring容器的配置<BR/>
- * 张勇 2024.1.18
  */
 public class OrderProducerBean implements OrderProducer {
 

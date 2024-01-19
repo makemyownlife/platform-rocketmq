@@ -1,4 +1,4 @@
-package cn.javayong.platform.rmqclient.demo.mq;
+package cn.itcouarge.demo.mq;
 
 import cn.javayong.platform.rmqclient.core.*;
 import cn.javayong.platform.rmqclient.core.config.ConsumerConfig;

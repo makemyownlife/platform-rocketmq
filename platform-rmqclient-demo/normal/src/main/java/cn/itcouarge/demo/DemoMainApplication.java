@@ -1,4 +1,4 @@
-package cn.javayong.platform.rmqclient.demo;
+package cn.itcouarge.demo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

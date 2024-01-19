@@ -12,8 +12,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * 顺序消息消费者bean,用于Spring容器的配置<BR/>
- * 张严  2018/9/26 16:52
+ * 顺序消息消费者bean,用于Spring容器的配置
  */
 public class OrderConsumerBean implements Consumer {
 

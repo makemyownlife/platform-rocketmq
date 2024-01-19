@@ -2,7 +2,6 @@ package cn.javayong.platform.rmqclient.core.config;
 
 /**
  * 生产者配置类<BR/>
- * 张严  2018/9/26 16:52
  */
 public class ProducerConfig {
     //NameSrv地址

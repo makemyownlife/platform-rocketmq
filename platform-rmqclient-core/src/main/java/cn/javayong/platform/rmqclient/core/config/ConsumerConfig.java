@@ -5,7 +5,6 @@ import org.apache.rocketmq.common.protocol.heartbeat.MessageModel;
 
 /**
  * 消费者配置类<BR/>
- * 张严  2018/9/26 16:52
  */
 public class ConsumerConfig {
 
