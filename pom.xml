@@ -16,6 +16,8 @@
         <!-- 示例代码 -->
         <module>platform-rmqclient-demo</module>
         <module>platform-rmqclient-demo/normal</module>
+        <module>platform-rmqclient-demo/order</module>
+        <module>platform-rmqclient-demo/batch</module>
     </modules>
 
     <properties>

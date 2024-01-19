@@ -11,17 +11,18 @@
     </parent>
 
     <groupId>cn.itcouarge</groupId>
-    <artifactId>platform-rmqclient-demo-normal</artifactId>
+    <artifactId>platform-rmqclient-demo-order</artifactId>
+
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
 
     <build>
-        <finalName>platform-rmqclient-demo-normal</finalName>
+        <finalName>platform-rmqclient-demo-order</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -32,7 +33,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.courage.platform.sms.demo.DemoMainApplication</mainClass>
+                            <mainClass>com.courage.platform.sms.cn.itcouarge.demo.DemoMainApplication</mainClass>
                         </manifest>
                     </archive>
                     <excludes>
@@ -114,5 +115,6 @@
         </dependency>
 
     </dependencies>
+
 
 </project>
