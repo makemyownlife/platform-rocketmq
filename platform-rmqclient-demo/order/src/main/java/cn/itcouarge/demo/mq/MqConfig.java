@@ -1,10 +1,9 @@
 package cn.itcouarge.demo.mq;
 
-
-import cn.javayong.platform.rmqclient.core.*;
-import cn.javayong.platform.rmqclient.core.config.ConsumerConfig;
-import cn.javayong.platform.rmqclient.core.config.ProducerConfig;
-import cn.javayong.platform.rmqclient.core.impl.factory.MQFactory;
+import cn.itcourage.platform.rmqclient.core.*;
+import cn.itcourage.platform.rmqclient.core.config.ConsumerConfig;
+import cn.itcourage.platform.rmqclient.core.config.ProducerConfig;
+import cn.itcourage.platform.rmqclient.core.impl.factory.MQFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

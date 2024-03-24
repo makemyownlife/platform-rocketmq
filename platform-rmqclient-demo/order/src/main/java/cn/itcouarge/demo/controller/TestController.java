@@ -1,8 +1,7 @@
 package cn.itcouarge.demo.controller;
 
-import cn.javayong.platform.rmqclient.core.OrderProducer;
-import cn.javayong.platform.rmqclient.core.Producer;
-import cn.javayong.platform.rmqclient.core.ProducerMessage;
+import cn.itcourage.platform.rmqclient.core.OrderProducer;
+import cn.itcourage.platform.rmqclient.core.ProducerMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
