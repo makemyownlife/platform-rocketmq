@@ -97,43 +97,43 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
-                <version>2.3.8.RELEASE</version>
+                <version>2.2.2.RELEASE</version>
             </dependency>
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-aop</artifactId>
-                <version>2.3.8.RELEASE</version>
+                <version>2.2.2.RELEASE</version>
             </dependency>
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
-                <version>2.3.8.RELEASE</version>
+                <version>2.2.2.RELEASE</version>
             </dependency>
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-jdbc</artifactId>
-                <version>2.3.8.RELEASE</version>
+                <version>2.2.2.RELEASE</version>
             </dependency>
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
-                <version>2.3.8.RELEASE</version>
+                <version>2.2.2.RELEASE</version>
             </dependency>
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-autoconfigure</artifactId>
-                <version>2.3.8.RELEASE</version>
+                <version>2.2.2.RELEASE</version>
             </dependency>
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-configuration-processor</artifactId>
-                <version>2.3.8.RELEASE</version>
+                <version>2.2.2.RELEASE</version>
             </dependency>
 
             <dependency>
@@ -145,5 +145,6 @@
         </dependencies>
 
     </dependencyManagement>
+
 
 </project>
